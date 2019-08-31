@@ -1,3 +1,45 @@
 body {
-    background-color: lightsteelblue;
+    background-color: rgb(195, 193, 233);
+}
+
+.assignmentCard {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    width: 350px;
+}
+
+.assignmentCard h3 {
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+.assignmentCard h4 {
+    margin-bottom: .5em;
+}
+
+.assignmentCard header {
+    background-color: green;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+.assignmentCard span{
+    font-weight: bold;
+}
+
+#cardDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notes {
+    font-style: italic;
+    margin-top: .5em;
 }
