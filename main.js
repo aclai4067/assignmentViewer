@@ -50,9 +50,9 @@ const printAssignmentCards = (assignmentArr) => {
         cardsToPrint += `
             <div class="assignmentCard">
             <header><h3>${assignmentObj.title}</h3></header>
-            <p>Due: ${assignmentObj.dueDate}</p>
+            <p><span>Due:</span> ${assignmentObj.dueDate}</p>
             <h4>${assignmentObj.topic}</h4>
-            <p>${assignmentObj.notes}</p>
+            <p class="notes">${assignmentObj.notes}</p>
             <p><a href="${assignmentObj.assignmentUrl}">Details</a></p>
             </div>
         `
